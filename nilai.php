@@ -41,6 +41,7 @@
         $ipa = $_GET['ipa'];
         $inggris = $_GET['inggris'];
         $pkn = $_GET['pkn'];
+        
         $total = $mtk + $indo + $pai + $ipa + $inggris + $pkn;
         $max = max($mtk, $indo, $pai, $ipa, $inggris, $pkn);
         $min = min($mtk, $indo, $pai, $ipa, $inggris, $pkn);

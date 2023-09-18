@@ -1,6 +1,6 @@
 <?php
 // Kode koneksi ke database
-$conn = mysqli_connect("localhost", "username", "password", "nama_database");
+$conn = mysqli_connect("localhost", "root", "", "nilai");
 
 // Periksa koneksi
 if (!$conn) {
